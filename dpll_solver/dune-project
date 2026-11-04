@@ -1,0 +1,27 @@
+(lang dune 3.0)
+
+(name dpll_solver)
+
+(generate_opam_files true)
+
+(source
+ (uri "https://moule.informatique.u-paris.fr/gritar/projet-dpll-2526-gritar-hem.git"))
+
+(authors "Gritar (@gritar)" "Hem (@hem)")
+
+(maintainers "Gritar (@gritar)" "Hem (@hem)")
+
+(license LICENSE)
+
+(documentation "https://moule.informatique.u-paris.fr/gritar/projet-dpll-2526-gritar-hem")
+
+
+(package
+ (name dpll_solver)
+ (synopsis "A student project implementing DPLL in Ocaml")
+ (description "An implementation of the DPLL (Davis-Putnam-Logemann-Loveland) algorithm in OCaml.")
+ (depends ocaml)
+ (tags
+  ("ocaml" "dpll")))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
